@@ -200,7 +200,7 @@ flex-direction: column;
         margin-bottom: 2vh;
     }
     
-   .active:hover ~ .menu ,.menu:hover{
+   .active:hover ~ .menu ,.menu:hover, .active:active ~ .menu {
         visibility: visible; 
     }
     img{
